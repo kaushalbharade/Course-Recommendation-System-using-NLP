@@ -24,24 +24,6 @@ This system solves the problem by recommending courses based on **semantic simil
 
 ---
 
-## 🏗️ Project Structure
-Ai-Course-Recommendation-System
-│
-├── app.py
-├── Course_Recommendation_System.ipynb
-├── Coursera.csv
-├── models
-│ └── (generated locally, not committed to GitHub)
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-
-⚠️ **Important Note**  
-Large trained model files (`.pkl`) are **generated locally** and intentionally excluded from GitHub to follow best practices and avoid bloated repositories.
-
----
-
 ## 🛠️ Tech Stack
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn  
