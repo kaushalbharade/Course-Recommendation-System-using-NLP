@@ -25,3 +25,54 @@ This system solves the problem by recommending courses based on **semantic simil
 ---
 
 ## 🏗️ Project Structure
+Ai-Course-Recommendation-System
+│
+├── app.py
+├── Course_Recommendation_System.ipynb
+├── Coursera.csv
+├── models
+│ └── (generated locally, not committed to GitHub)
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+
+⚠️ **Important Note**  
+Large trained model files (`.pkl`) are **generated locally** and intentionally excluded from GitHub to follow best practices and avoid bloated repositories.
+
+---
+
+## 🛠️ Tech Stack
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Scikit-learn  
+- **NLP Techniques:** Text preprocessing & vectorization  
+- **ML Technique:** Cosine Similarity  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📊 Dataset
+- File: `Coursera.csv`  
+- Contains course titles and descriptions used for training and recommendations  
+
+---
+
+## 🚀 How the System Works
+
+User provides a text query or area of interest
+
+Input text is preprocessed and vectorized
+
+Cosine similarity is calculated with course vectors
+
+Top matching courses are returned as recommendations
+
+## ✅ Key Features
+
+NLP-based course recommendation
+
+Simple, scalable, and explainable logic
+
+Clean and professional repository structure
+
+Suitable for resumes and interviews
